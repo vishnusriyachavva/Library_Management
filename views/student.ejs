@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+      .b{
+       height:250px;
+      }
+      .a{
+       width:100px;
+      }
+      body {
+      font-family: "Open Sans", sans-serif;
+      background-image: url("data:image/jpeg;base64,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");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+       .btn{
+         background-color: white;
+         color:black;
+         height: 70px;
+         width: 200px;
+         border-radius:15px;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       }
+      .btn:hover{
+        background-color: black;
+  color: white;
+      }
+   </style>
+   </head>
+ 
+   <body>
+     <div class="b"></div>
+     <div>
+ 
+       <center><form action="/read" method="post">
+         <table>
+           <tr>
+             <td>
+              <a href="read"><button class="btn">Check books</button></a>
+            
+             </td>
+            </form>
+             <td class="a">
+              
+             </td>
+             <td>
+              <form action="/show" method="post">
+                <input type="text" value="<%=id1%>" name="in" style="display:none">
+                <a href="show"><button class="btn">Ur Reseved Books</button></a>
+               </form>
+             </td>
+             <td class="a">
+              
+            </td>
+            <td>
+              <form action="/index" method="post">  
+              <a href="/index"><button class="btn">Logout</button></a></td>
+              </form>
+             
+           
+           </tr>
+         </table>
+        
+        </form>
+         
+       </center>
+     </div>
+         
+  </body>
+</html>
